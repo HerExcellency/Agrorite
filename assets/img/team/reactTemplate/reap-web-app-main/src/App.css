@@ -1,0 +1,398 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -28px;
+  position: relative;
+  z-index: 2;
+  margin-right: 10px;
+}
+
+.card2 {
+  text-align: center;
+  /* vertical-align: middle; */
+  padding: 90px;
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+}
+
+.card3 {
+  height: auto;
+  justify-content: center;
+}
+
+.card4 {
+  /* height: 210px; */
+  height: auto;
+  justify-content: center;
+}
+
+.card7 {
+  /* height: 210px; */
+  height: auto;
+  justify-content: center;
+}
+
+.myHeight {
+  line-height: .6;
+}
+
+.myHeight2 {
+  line-height: .9;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.s-30 {
+  font-size: 30px;
+}
+
+.soldout {
+  background-color: black;
+  padding: 3px 1px;
+  text-align: center;
+  border-radius: 10px;
+  color: red;
+}
+
+.nowselling {
+  background-color: white;
+  padding: 3px 1px;
+  text-align: center;
+  border-radius: 10px;
+  color: #0d1884;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card1 {
+  background-image: url('../src/images/bg1.png');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+}
+
+
+
+
+.social a {
+  padding: 0 .5em;
+  font-size: 10px;
+}
+
+.myownh {
+  font-size: 12px;
+  height: 60px;
+}
+
+
+
+.sticky-footer {
+  display: none;
+}
+
+.d-mobile {
+  display: none;
+}
+
+.cardPort {
+  padding: 15px !important
+}
+
+.cardPort2 {
+  padding: 25px !important
+}
+
+.myHeight4 {
+  line-height: .3 !important;
+}
+
+.getSize {
+  font-size: 8px;
+}
+
+.getSizeH {
+  font-size: 12px;
+  color: #005C62 !important;
+}
+
+@media (max-width: 900px) {
+  .myownh {
+    height: 30px;
+  }
+}
+
+
+@media (max-width: 500px) {
+
+
+  .cardbodyGoal {
+    padding: 10px !important;
+  }
+
+  .getSize {
+    font-size: 7px;
+  }
+
+  .getSizeH {
+    font-size: 10px;
+  }
+
+
+
+  .card3 {
+    height: auto;
+    justify-content: center;
+  }
+
+  .not-mobile {
+    display: none;
+  }
+
+  .d-mobile {
+    display: block;
+  }
+
+  .wrapper-menu {
+    display: none;
+  }
+
+  .myownh {
+    /* font-size: '12px'; */
+    height: 25px;
+  }
+
+  /* CSS Reset used: http://seodesigns.com/projects/codepen/reset.css */
+  .sticky-footer {
+    display: block;
+    height: 58px;
+    background: #0d1884;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .sticky-footer .one-fourth {
+    width: 20%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    height: 58px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .sticky-footer .one-fourth .activer {
+    /* border-bottom: 1px solid #fff; */
+    font-weight: bold;
+    color: #6775FF !important;
+  }
+
+  .sticky-search,
+  .sticky-filters,
+  .sticky-map,
+  .sticky-radius,
+  .lo {
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-top: 11px;
+  }
+
+  .sticky-footer .one-fourth p {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  .lmenu {
+    display: inline-flex;
+    margin-right: 15px;
+    float: left;
+    font-size: 12px;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: scroll;
+    width: 100%;
+    height: inherit;
+  }
+
+  .ncard-body {
+    padding: 5px !important;
+  }
+
+  .card4 {
+    height: 280px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .card7 {
+    height: 220px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .myHeight {
+    line-height: .6;
+  }
+
+  .myHeight4 {
+    line-height: 0 !important;
+  }
+
+  .iq-sidebar-menu .iq-menu li a {
+    padding: 10px 15px;
+  }
+
+  .nav-link {
+    padding: 6px !important;
+    border: 1px solid black;
+    margin: 4px;
+  }
+
+  .card-b1 {
+    padding: 20px !important;
+    margin-bottom: 10px;
+  }
+
+  .myImg {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .cardPort2 {
+    padding: 15px !important;
+  }
+}
+
+.p-10 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.myImg {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.mySize {
+  font-size: 12px !important;
+}
+
+.myFonter {
+  font-size: 12px;
+
+}
+
+.compman {
+  /* width: 40px !important;
+  height: 40px !important;
+  display: inline-flex !important;
+  overflow: hidden !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin-top: 4px; */
+}
+
+.compman .rimg {
+  /* max-width: 150% !important;
+  max-width: initial;
+  height: unset;
+  width: unset;
+  max-height: 150%; */
+}
+
+
+
+
+/* New one start here */
+
+/* width: auto;
+    max-width: 100%;
+    display: inline-flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center; */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 65px;
+  right: 22px;
+  background-color: #6775FF;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.floater {
+  background-color: #005C62;
+}
+
+.my-float {
+  margin-top: 22px;
+  color: #fff
+}
+
+.h6i {
+  font-size: 0.8em;
+}
+
+.modal-content {
+  border-radius: 20px;
+  /* background-color: #999; */
+}

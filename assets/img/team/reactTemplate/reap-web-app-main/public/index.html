@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Smart way to grow your money" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/backend.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/remixicon/fonts/remixicon.css">
+  <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/@icon/dripicons/dripicons.css">
+
+  <link rel='stylesheet' href='%PUBLIC_URL%/assets/vendor/fullcalendar/core/main.css' />
+  <link rel='stylesheet' href='%PUBLIC_URL%/assets/vendor/fullcalendar/daygrid/main.css' />
+  <link rel='stylesheet' href='%PUBLIC_URL%/assets/vendor/fullcalendar/timegrid/main.css' />
+  <link rel='stylesheet' href='%PUBLIC_URL%/assets/vendor/fullcalendar/list/main.css' />
+  <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/mapbox/mapbox-gl.css">
+  <!-- <script src="https://js.paystack.co/v1/inline.js"></script> -->
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Reaprite - Simplified and accessible savings at zero charge</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <!-- Backend Bundle JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/backend-bundle.min.js"></script>
+
+  <!-- Flextree Javascript-->
+  <script src="%PUBLIC_URL%/assets/js/flex-tree.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/tree.js"></script>
+
+  <!-- Table Treeview JavaScript -->
+  <script src="%PUBLIC_URL%/assets/js/table-treeview.js"></script>
+
+  <!-- Masonary Gallery Javascript -->
+  <script src="%PUBLIC_URL%/assets/js/masonry.pkgd.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/imagesloaded.pkgd.min.js"></script>
+
+  <!-- Mapbox Javascript -->
+  <script src="%PUBLIC_URL%/assets/js/mapbox-gl.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/mapbox.js"></script>
+
+  <!-- Fullcalender Javascript -->
+  <script src='%PUBLIC_URL%/assets/vendor/fullcalendar/core/main.js'></script>
+  <script src='%PUBLIC_URL%/assets/vendor/fullcalendar/daygrid/main.js'></script>
+  <script src='%PUBLIC_URL%/assets/vendor/fullcalendar/timegrid/main.js'></script>
+  <script src='%PUBLIC_URL%/assets/vendor/fullcalendar/list/main.js'></script>
+
+  <!-- SweetAlert JavaScript -->
+  <script src="%PUBLIC_URL%/assets/js/sweetalert.js"></script>
+
+  <!-- Vectoe Map JavaScript -->
+  <script src="%PUBLIC_URL%/assets/js/vector-map-custom.js"></script>
+
+  <!-- Chart Custom JavaScript -->
+  <script src="%PUBLIC_URL%/assets/js/customizer.js"></script>
+
+  <!-- Chart Custom JavaScript -->
+  <script src="%PUBLIC_URL%/assets/js/chart-custom.js"></script>
+
+  <!-- slider JavaScript -->
+  <script src="%PUBLIC_URL%/assets/js/slider.js"></script>
+
+  <!-- app JavaScript -->
+  <script src="%PUBLIC_URL%/assets/js/app.js"></script>
+  <!-- <script src="%PUBLIC_URL%/assets/js/snows.js"></script> -->
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+
+
+  var inactivityTime = function () {
+    var time;
+    var token = localStorage.getItem('_htoken')
+    if (token) {
+
+      window.onload = resetTimer;
+    }
+    // DOM Events
+    document.onmousemove = resetTimer;
+    document.onkeypress = resetTimer;
+    function resetTimer() {
+      clearTimeout(time);
+      time = setTimeout(function () {
+        localStorage.removeItem('_htoken')
+        return window.location = '/login'
+      }, 2000000)
+    }
+  };
+  inactivityTime()
+</script>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/5ffa2e0ea9a34e36b96ac293/1erkk7r01';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+
+
+<!--End of Tawk.to Script-->
