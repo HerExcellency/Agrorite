@@ -8,27 +8,7 @@ require_once "header.php";
 
 <div class="header-space"></div>
 
-  <!-- Header End -->
-
-  <!-- Breadcrumb Area Start -->
-
-  <!-- <nav class="breadcrumb-area bg-dark bg-6 ptb-20">
-
-    <div class="container d-md-flex">
-
-      <h2 class="text-white mb-0">Career</h2>
-
-      <ol class="breadcrumb p-0 m-0 bg-dark ml-auto">
-
-        <li class="breadcrumb-item"><a class="text-white" href="index">Home</a> <span class="text-white">/</span></li>
-
-        <li aria-current="page" class="breadcrumb-item active text-white">Career</li>
-
-      </ol>
-
-    </div>
-
-  </nav> -->
+  
 
   <div class="parallax7"></div>
   <!-- Breadcrumb Area End -->

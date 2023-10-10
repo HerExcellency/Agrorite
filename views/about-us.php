@@ -18,28 +18,28 @@
         </div>
         <div class="row">
           <div class="col-lg-6">
-            <div class="hero-text ncolor5 oyaPad1 card h-100" style="background-color: #07c507; border: none">
-              <h2 class="mb-20 text-white">Who We Are</h2>
-              <p class="iheight mb-10 text-white">Agrorite is a digital agricultural platform that connects smallholder farmers with Finance, Smart farming solutions and Premium markets.
+            <div class="hero-text ncolor5 oyaPad1 card h-100 subHead" style="background-color: #07c507; border: none">
+              <h1 class="mb-20 text-white">Who We Are</h1>
+              <p class="iheight mb-10 text-white">We are an Agribusiness, leveraging technology to proffer innovative solutions to warehousing, and local and international fair trade of agricultural commodities in order to guarantee profitability within the sector.
               </p>
-              <p class="iheight mb-10 text-white">Our mantra is to provide positive outcomes for farmers in order to tackle the challenge of food insecurity in Africa.
+              <p class="iheight mb-10 text-white">Our charge is to ensure the realization of positive outcomes for farmers in order to tackle the challenges of food insecurity in Africa.
               </p>
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="hero-text ncolor5 oyaPad1 card h-100" style="">
-              <h2 class="mb-20" style="color: #333">Our Vision</h2>
-              <p class="iheight mb-10">To inspire the production of sustainable food for Africa.
+            <div class="hero-text ncolor5 oyaPad1 card h-100 subHead" style="">
+              <h1 class="mb-20" style="color: #333">Our Vision</h1>
+              <p class="iheight mb-10">To inspire the production and distribution of sustainable food for Africa.
               </p>
               
             </div>
           </div>
 
           <div class="col-lg-3">
-            <div class="hero-text ncolor5 oyaPad1 card h-100" style="">
-              <h2 class="mb-20 " style="color: #333">Our Mission</h2>
-              <p class="iheight mb-10">To improve the livelihood of every smallholder farmer in Africa.
+            <div class="hero-text ncolor5 oyaPad1 card h-100 subHead" style="">
+              <h1 class="mb-20 " style="color: #333">Our Mission</h1>
+              <p class="iheight mb-10">To improve the livelihood of every small holder farmer in Africa.
               </p>
               
             </div>
@@ -49,43 +49,40 @@
     </section>
   </div>
    <!-- What we do -->
-   <div class=" bg-white mb-30">
+  <div class=" bg-white mb-30">
     <!-- Hero Block Start -->
-    <section class="hero-block pt-60">
-      <div class="container">
-        <div class="row" style="margin-left:auto; margin-right:auto">
-          <div class="col-12 col-md-6 col-xl-6 ncolor5 oyaPad1">
-              <div class="hero-thumb">
+      <section class="hero-block pt-60">
+        <div class="container">
+          <div class="row" style="margin-left:auto; margin-right:auto">
+            <div class="col-12 col-md-6 col-xl-6 ncolor5 oyaPad1">
+                <div class="hero-thumb">
 
-              <iframe width="100%" height="360" src="https://www.youtube.com/embed/2r_busT1pug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
-              </div>
+                <!-- <iframe width="100%" height="360" src="https://www.youtube.com/embed/2r_busT1pug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                  <img src="//res.cloudinary.com/ijeomaonuaju/image/upload/v1677750170/teammm_k3ki7p.png" style="width: 100%; height: 360" alt="" />
+                  
+                </div>
 
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12 ncolor3 oyaPad1">
-          <h2 class="mb-25 text-white">What We Do</h2>
-              <p class="mb-10 text-white">We are a fast growing organisation with diverse team members providing solutions to:</p>
-              <ul class="list-unstyled mb-10 text-white">
-                <li style="font-size: 16px"> Connect smallholder farmers with finance (via financial institutions)</li>
-                <li style="font-size: 16px"> Enable financiers earn decent income and learn the rudiments of agribusiness</li>
-                <li style="font-size: 16px"> Give premium buyers the "farm to fork" experience by supplying quality and nutritious agricultural products.</li>
-              </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 ncolor3 oyaPad1">
+            <h3 class="mb-25 text-white subSubHead">What We Do</h3>
+                <p class="mb-10 text-white">We are invested in the post-harvest value chain of Agriculture. We give premium buyers the “farm to fork” experience by providing warehousing solutions to guarantee the most minimum post - harvest waste, and providing access to both local and international markets to guarantee profitability for investments.</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     <!-- Hero Block End -->
-    </div>
+  </div>
 
   <!-- How We started -->
   <div class="container-fluid parallax2" style="margin-top:0px;">
     <section class="section-ptb bb-2 mysection">
       <div class="row" style="margin-top:-20px">
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 pright">
-            <div class="">
-              <h2 class="color-green">How We Started</h2>
-              <h4 class="mb-20 text-white" style="line-height:1.8">Mr Ule is a smallholder farmer in Benue state who works tirelessly day and night on his farm but his livelihood was not a reflection of his effort. Amongst other challenges, he had difficulty selling his harvested farm produce to the right buyer at a competitive price. He usually... </h4>
-              <a class="btn btn-sm mb-40 btn-primary" href="//blog.agrorite.com/how-we-started/" target="_blank">Read Full Story</a>
+            <div class="subHead">
+              <h3 class="color-green">How We Started</h3>
+              <h4 class="mb-20 text-white" style="line-height:1.8">A chanced meeting of one of the Founders of Agrorite with one Mr. Ule, a small holder farmer in Benue laid the foundation for the incorporation of Agrorite. 
+Mr. Ule was a yam farmer in Benue state (the state is popularly referred to as the food basket of the nation), and was burdened by the known challenges affecting small holder farmers in Africa, but most especially the challenges of post harvest waste made worse by a lack of access to profitable markets.</h4>
+              <a class="btn btn-sm mb-40 btn-primary" href="//blog.agrorite.com/agrorite-how-we-started/" target="_blank">Read Full Story</a>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -106,58 +103,35 @@
           <div class="mb-0">
             <h1 class="" style="font-weight:bold">Our Procedure</h1>
           </div>
-          <h4 class="mb-30" style="line-height:1.8">Our time tested procedure of delivering a realistic market income revenue to the benefit of our farmers and investors is second to none.</h4>
+          <h4 class="mb-30" style="line-height:1.8">Our time tested procedure of delivering a realistic market income revenue to the benefit of farmers and investors is second to none.</h4>
         </div>
       </div>
       <div class="row">
           <div class="col-12 col-md-6 col-xl-4 pad">
             <div class="ncolor5 oyaPad2">
               <div class="hero-text mt-10">
-                  <h3 class="mb-10 h3i">1. Onboarding Farmers</h3>
-                  <p class="iheight">We partner with Farmers Associations, Cooperatives and Community heads to identify serious and experienced farmers within communities who cultivate same crop. We educate them on premium offtakers and linkage to these offtakers who will buy off their produce at harvest at a competitive price.</p>
+                  <h3 class="mb-10 subSubHead">1. Contracts</h3>
+                  <p class="iheight">We secure access to premium markets by sourcing profitable contracts from both local and international buyers, before the harvest period.</p>
                 </div>
               </div> 
           </div> 
           <div class="col-12 col-md-6 col-xl-4 pad">
             <div class="ncolor5 oyaPad2">
                 <div class="hero-text mt-10">
-                  <h3 class="mb-10 h3i">2. Training & Provision of Seedlings</h3>
-                  <p class="iheight">Once serious farmers have been aggregated, we offer them necessary trainings on smart farming, provide seedlings, fertilizers, funds and machineries for cultivating.</p>
+                  <h3 class="mb-10 subSubHead">2. Harvest and warehousing</h3>
+                  <p class="iheight">During harvest period the ripe crops are harvested from the field by the farmers and collected to a central Agrorite Aggregation Center (AGC) for easy off take.</p>
                 </div>
               </div> 
             </div> 
           <div class="col-12 col-md-6 col-xl-4 pad">
             <div class="ncolor5 oyaPad2">
                 <div class="hero-text mt-10">
-                  <h3 class="mb-10 h3i">3. Financing</h3>
-                  <p class="iheight">Through Institutions and HNIs, funds are pulled in to finance farming circles and projects. The capital is then put into production, trading and logistics where our onboarded smallholder farmers are engaged.</p>
+                  <h3 class="mb-10 subSubHead">3. Trade</h3>
+                  <p class="iheight">Prior to embarking on a farming project, we source and identify buyers and negotiate on profitable margins that will favor the farmers. Upon harvest, the produce is package and shipped to the off takers locally or internationally. Crops not cultivate by us are equally sourced for trading.</p>
                 </div>
               </div> 
             </div> 
-          <div class="col-12 col-md-6 col-xl-4 pad">
-            <div class="ncolor5 oyaPad2">
-                <div class="hero-text mt-10">
-                  <h3 class="mb-10 h3i">4. Insurance</h3>
-                  <p class="iheight">Insurance is the protection against an unforeseen natural event. Each of our farm locations and commodity on transit carries an assurance cover to protect our investor’s investment.</p>
-                </div>
-              </div> 
-            </div> 
-          <div class="col-12 col-md-6 col-xl-4 pad">
-            <div class="ncolor5 oyaPad2">
-                <div class="hero-text mt-10">
-                  <h3 class="mb-10  h3i">5. Agrorite Bookies</h3>
-                  <p class="iheight">We provide farm inventory management system to the farmer to ensure adequate documentation of expenses associated with the farming process, and also provide bi-weekly report to investors and off-takers.</p>
-                </div>
-            </div> 
-          </div> 
-          <div class="col-12 col-md-6 col-xl-4 pad">
-            <div class="ncolor5 oyaPad2">
-                <div class="hero-text mt-10">
-                  <h3 class="mb-10 h3i">6. Harvest & Warehousing</h3>
-                  <p class="iheight">During harvest period the ripe crops are harvested from the field by the farmers and collected to a central Agrorite Aggregation Center (AGC) for easy offtake.</p>
-                </div>
-            </div> 
-          </div> 
+          
           <div class="col-12 col-md-12 col-lg-12 mt-60 text-center">
             <button onclick="window.location.href='<?php echo $urlLink; ?>/our-procedure'" class="btn btn-primary">All Our Procedures</button>
           </div>
@@ -166,68 +140,68 @@
   </div>
 
     <!-- Our Value Proposition -->
-    <div class="fun-facts bg-white ptb-100">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-12">
-          <div class="heading mb-80">
-            <h2>OUR VALUE PROPOSITION</h2>
-            <hr class="line bw-2 mx-auto line-sm mb-5">
-            <hr class="line bw-2 mx-auto">
+    <!-- <div class="fun-facts bg-white ptb-100">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <div class="heading mb-80">
+              <h2>OUR VALUE PROPOSITION</h2>
+              <hr class="line bw-2 mx-auto line-sm mb-5">
+              <hr class="line bw-2 mx-auto">
+            </div>
           </div>
         </div>
+        <div class="row text-center">
+          <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
+            <div class="single-fact">
+              <div class="icon circle-icon prop mx-auto mb-20">
+              <img src="assets/img/icon/zeroHunger.png">
+              </div>
+              <h4 class="mb-0">ZERO HUNGER</h4>
+            </div>
+          </div>-->
+          <!-- Single Fact End -->
+          <!-- <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
+            <div class="single-fact">
+              <div class="icon circle-icon prop mx-auto mb-20">
+                <img src="assets/img/icon/tech-solutions.png">
+              </div>
+              <h4 class="mb-0">TECH AND DATA INSPIRED SOLUTIONS</h4>
+            </div>
+          </div> -->
+          <!-- Single Fact End -->
+          <!-- <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
+            <div class="single-fact">
+              <div class="icon circle-icon prop mx-auto mb-20">
+                <img src="assets/img/icon/beyond-agric.png">
+              </div>
+              <h4 class="mb-0">THRIVING BEYOND FARMING</h4>
+            </div>
+          </div> -->
+          <!-- Single Fact End -->
+
+          <!-- <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
+            <div class="single-fact">
+              <div class="icon circle-icon prop mx-auto mb-20">
+              <img src="assets/img/icon/noPoverty.png">
+              </div>
+              <h4 class="mb-0">NO POVERTY</h4>
+            </div>
+          </div> -->
+
+
+          <!-- Single Fact End -->
+       <!-- </div>
       </div>
-      <div class="row text-center">
-        <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
-          <div class="single-fact">
-            <div class="icon circle-icon prop mx-auto mb-20">
-            <img src="assets/img/icon/zeroHunger.png">
-            </div>
-            <h4 class="mb-0">ZERO HUNGER</h4>
-          </div>
-        </div>
-        <!-- Single Fact End -->
-        <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
-          <div class="single-fact">
-            <div class="icon circle-icon prop mx-auto mb-20">
-              <img src="assets/img/icon/tech-solutions.png">
-            </div>
-            <h4 class="mb-0">TECH AND DATA INSPIRED SOLUTIONS</h4>
-          </div>
-        </div>
-        <!-- Single Fact End -->
-        <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
-          <div class="single-fact">
-            <div class="icon circle-icon prop mx-auto mb-20">
-              <img src="assets/img/icon/beyond-agric.png">
-            </div>
-            <h4 class="mb-0">THRIVING BEYOND FARMING</h4>
-          </div>
-        </div>
-        <!-- Single Fact End -->
-
-        <div class="col-6 col-sm-6 col-lg-3 mb-sm-40 mb-md-50">
-          <div class="single-fact">
-            <div class="icon circle-icon prop mx-auto mb-20">
-            <img src="assets/img/icon/noPoverty.png">
-            </div>
-            <h4 class="mb-0">NO POVERTY</h4>
-          </div>
-        </div>
-
-
-        <!-- Single Fact End -->
-      </div>
-    </div>
-  </div>
+    </div> -->
 
    <!-- Our Value Chain -->
    <div class="container-fluid bg-3">
     <section class="section-ptb bb-2 mysection4 negative_top">
       <div class="row">
         <div class="col-12 col-md-8 col-xl-6">
-          <div class="mb-0">
-            <h1 class="" style="font-weight:bold">Our Value Chain</h1>
+          <div class="mb-0 subHead">
+            <h1 class="" >Our Value Chain</h1>
           </div>
           <h4 class="mb-30" style="line-height:1.8">Our value chain approach in agricultural development helps identify weak points in the chain and actions to add more value.</h4>
         </div>
@@ -237,20 +211,9 @@
               <div class="ncolor5 oyaPad2">
                 <div class="hero-text">
                   <div class="icon circle-icon circle-icon1 leaf mb-20">
-                    <img src="assets/img/cons/value/input.webp">
-                  </div>
-                  <h3 class="mb-10 h3i">Inputs & Financing</h3>
-                  <p class="iheight">Bridging finance gap for smallholder farmers, through access to farm inputs and ready to use funds.</p>
-                </div>
-              </div>
-            </div> 
-          <div class="col-12 col-md-6 col-xl-4 pad">
-              <div class="ncolor5 oyaPad2">
-                <div class="hero-text">
-                  <div class="icon circle-icon circle-icon1 leaf mb-20">
                     <img src="assets/img/cons/value/aggregation.webp">
                   </div>
-                  <h3 class="mb-10 h3i">Aggregation</h3>
+                  <h3 class="mb-10 subSubHead">Aggregation</h3>
                   <p class="iheight">Provision of accessible central aggregation centers and warehousing for storage of produce and for easy offtake.</p>
                 </div>
               </div>
@@ -261,7 +224,7 @@
                   <div class="icon circle-icon circle-icon1 leaf mb-20">
                     <img src="assets/img/cons/value/process.webp">
                   </div>
-                  <h3 class="mb-10 h3i">Food Processing <br>& Trading</h3>
+                  <h3 class="mb-10 subSubHead">Food Processing <br>& Trading</h3>
                   <p class="iheight">Quality processing and packaging of farm produce into semi-finished products for consumers.</p>
                 </div>
               </div> 
@@ -272,7 +235,7 @@
                   <div class="icon circle-icon circle-icon1 leaf mb-20">
                     <img src="assets/img/cons/value/commodity.webp">
                   </div>
-                  <h3 class="mb-10  h3i">Commodity Trading</h3>
+                  <h3 class="mb-10  subSubHead">Commodity Trading</h3>
                   <p class="iheight">Exportation of in-demand agro commodities to meet local and international needs.</p>
                 </div>
               </div>
@@ -283,34 +246,40 @@
                   <div class="icon circle-icon circle-icon1 leaf mb-20">
                     <img src="assets/img/cons/value/tech.webp">
                   </div>
-                  <h3 class="mb-10 h3i">Agricultural Technology & Consultancy</h3>
+                  <h3 class="mb-10 subSubHead">Agricultural Technology & Consultancy</h3>
                   <p class="iheight">Exposing the common ground between Agriculture and Technology and also providing smart Agri-advisory.</p>
                 </div>
               </div>
           </div> 
+          
           <div class="col-12 col-md-6 col-xl-4 pad">
             <div class="ncolor5 oyaPad2">
                 <div class="hero-text">
                   <div class="icon circle-icon circle-icon1 leaf mb-20">
                     <img src="assets/img/cons/value/security.webp">
                   </div>
-                  <h3 class="mb-10 h3i">Insurance</h3>
+                  <h3 class="mb-10 subSubHead">Insurance</h3>
                   <p class="iheight">Providing investment security that covers all Business to Customer (B2C) processes, farming and agro commodities in the value chain.</p>
                 </div>
             </div> 
           </div> 
+
+          <!-- <div class="col-12 col-md-6 col-xl-4 pad">
+            <div class="ncolor5 purple oyaPad2">
+
+            </div> 
+          </div> -->
       </div>
     </section>
   </div>
   
  
-        <nav>
-        <!-- Recgnition start -->
+        <!-- <nav>
         <section class="recognition-area bg_white pt-135 pb-140 RecognitionDesktop">
             <div class="container">
-                <div class="section-title text-start">
+                <div class="section-title text-start subHead">
                    
-                    <h2 style="font-weight:bold" class="mb-0 wow fadeInUp" data-wow-delay="0.2s">Our Story</h2>
+                    <h1 style="font-weight:bold" class="mb-0 wow fadeInUp" data-wow-delay="0.2s">Our Story</h1>
                 </div>
 
                 <div class="recognition-widget pt-50">
@@ -343,18 +312,17 @@
                             <div class="tab-content wow fadeInUp" data-wow-delay="0.3s" id="myTabContent">
 
                                 <div class="tab-pane fade show active" id="twenty1" role="tabpanel" aria-labelledby="2021-tab">
-                                    <h3 style="margin-top: 0px; color: #07c507">2021</h3>
-                                    <p class="moreTextMobile awardTextMobile">Our Founder, Toyosi Ayodele was honored for his outstanding contributions to the agricultural sector at the 30 Under 30 Africa awards.</p>
-                                    <p class="moreTextMobile awardTextMobile">Member of the Nigerian-British Chamber of Commerce </p>
-                                    <p class="moreText awardText">Africa's most impactful Agricultural brand 2021 at the Global quality excellence and African brands award</p>
-                                    <p class="moreText awardText">Emmanuel Macron and the France government invited Agrorite to Montepelier, France</p>
-                                    <p class="moreText awardText">Agrorite's Founder & CEO, Toyosi Ayodele was awarded 50 influential CEOs in Leadership and Business Sustainability in Africa.</p>
-                                    <p class="moreText awardText">Official launching of Agrorite Limited in Guinea Bissau, East Africa.</p>
-                                    <p class="moreText awardText" style="display: none">Agrorite secured funding at the just concluded United Nations World Food Programme Zero Hunger Sprint.</p>
-                                    <p class="moreText awardText" style="display: none">Agrorite welcomes United Nations Team to their office in Lagos</p>
-                                    <p class="moreText awardText" style="display: none">Our Founder and CEO, Toyosi Ayodele was celebrated amongst the 40under40 CEO in Nigeria by Young Entrepreneurs International Summit</p>
-                                    <!-- <p class="moreText awardText" style="display: none">Our Founder and CEO, Toyosi Ayodele was celebrated amongst the 40under40 CEO in Nigeria by Young Entrepreneurs International Summit</p> -->
-
+                                    <h3 class="subSubHead" style=" color: #07c507">2021</h3>
+                                    <p class="">Our Founder, Toyosi Ayodele was honored for his outstanding contributions to the agricultural sector at the 30 Under 30 Africa awards.</p>
+                                    <p class="">Member of the Nigerian-British Chamber of Commerce </p>
+                                    <p class="">Africa's most impactful Agricultural brand 2021 at the Global quality excellence and African brands award</p>
+                                    <p class="">Emmanuel Macron and the France government invited Agrorite to Montepelier, France</p>
+                                    <p class="">Agrorite's Founder & CEO, Toyosi Ayodele was awarded 50 influential CEOs in Leadership and Business Sustainability in Africa.</p>
+                                    <p class="">Official launching of Agrorite Limited in Guinea Bissau, East Africa.</p>
+                                    <p class="" style="display: none">Agrorite secured funding at the just concluded United Nations World Food Programme Zero Hunger Sprint.</p>
+                                    <p class="" style="display: none">Agrorite welcomes United Nations Team to their office in Lagos</p>
+                                    <p class="" style="display: none">Our Founder and CEO, Toyosi Ayodele was celebrated amongst the 40under40 CEO in Nigeria by Young Entrepreneurs International Summit</p>
+                                    
                                     <div id="loadAll" style="">
                                       <a style="color: #07c507" href="#">See More...</a>
                                     </div>
@@ -424,13 +392,7 @@
                                             <p style="color:#07c507" class="text">Africa Brands </p>
                                             
                                         </li>
-                                        <!-- <li class="mt-3">
-                                            <p class="subtitle">Presidential Award To The CEO On Social Impact.</p>
-                                            <p style="color:#07c507" class="text">Federal Republic of Nigeria </p>
-                                            
-                                        </li> -->
-
-                                    </ul>
+                                      </ul>
                                 </div>
                             </div>
                         </div>
@@ -487,8 +449,7 @@
                                     <p class="moreTextMobile awardTextMobile" style="display: none">Agrorite secured funding at the just concluded United Nations World Food Programme Zero Hunger Sprint.</p>
                                     <p class="moreTextMobile awardTextMobile" style="display: none">Agrorite welcomes United Nations Team to their office in Lagos</p>
                                     <p class="moreTextMobile awardTextMobile" style="display: none">Our Founder and CEO, Toyosi Ayodele was celebrated amongst the 40under40 CEO in Nigeria by Young Entrepreneurs International Summit</p>
-                                    <!-- <p class="moreTextMobile awardTextMobile" style="display: none">Our Founder and CEO, Toyosi Ayodele was celebrated amongst the 40under40 CEO in Nigeria by Young Entrepreneurs International Summit</p> -->
-
+                                    
                                     <div id="loadAllMobile" style="">
                                       <a style="color: #07c507" href="#">See More...</a>
                                     </div>
@@ -567,7 +528,7 @@
                 </div>
             </div>
         </section>
-
+ -->
 
     
 

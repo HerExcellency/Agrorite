@@ -9,7 +9,7 @@
     <div class="container d-md-flex">
       <h2 class="text-white mb-0">Terms for farm visit</h2>
       <ol class="breadcrumb p-0 m-0 bg-dark ml-auto">
-        <li class="breadcrumb-item"><a class="text-white" href="index">Home</a> <span class="text-white">/</span></li>
+        <li class="breadcrumb-item"><Link class="text-white" to="index">Home</a> <span class="text-white">/</span></li>
         <li aria-current="page" class="breadcrumb-item active text-white">Terms for farm visit</li>
       </ol>
     </div>

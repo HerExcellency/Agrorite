@@ -11,7 +11,7 @@
             <div class="col-12 col-md-6 mb-sm-30 ">
                 <div class="hero-text">
                     <h2 class="mb-10">Utilizing technology to solve tomorrow's problems, today.</h2>
-                        <p class="mb-10 mw-5">We are a fun, innovative and agro-centric team. We are on a course to better the lives of smallholder farmers in Africa and steer the agri-tech ecosystem in Nigeria towards global recognition.</p>
+                        <p class="mb-10 mw-5">We are a fun, innovative and agro-centric team. We are on a course to better the lives of smallholder farmers in Africa and steer the agribusiness ecosystem in Nigeria towards global recognition.</p>
                         
                 </div>
             </div>
@@ -19,7 +19,7 @@
                 <div class="cont" style="width: auto; position: relative;">
                     <div class="d-flex jc-fe weImage" style="align-items: flex-start;">
                     
-                        <img src="assets/img/gallery/aboutTeam/longTeam.webp" alt="" class="image" style="opacity: 1; visibility: inherit;">
+                        <img src="//res.cloudinary.com/ijeomaonuaju/image/upload/v1677672818/agroteam2_jwzn37.png" alt="" class="image" style="opacity: 1; visibility: inherit;">
                 
                     </div>
                 </div>
@@ -37,8 +37,7 @@
             <div class="col-md-6 ">
                 <div class="cont" style="width: auto; position: relative;">
                     <div class="d-flex  weImage" style="align-items: flex-start;">
-                    <img src="assets/img/gallery/aboutTeam/longTeam2.webp" alt="" class="image" style="opacity: 1; visibility: inherit;">
-                     
+                    <img src="//res.cloudinary.com/ijeomaonuaju/image/upload/v1677672798/agroteam1_jsldhn.png" alt="" class="image" style="opacity: 1; visibility: inherit;">
                     </div>
                    
                 </div>

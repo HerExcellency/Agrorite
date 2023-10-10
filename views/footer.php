@@ -1,184 +1,115 @@
 <Footer>
-<div class="footer-widget-area bg-light3" style="padding-top: 100px; padding-bottom: 30px; padding-left: 22px; padding-right: 22px;">
-
-<div class="container">
-
-  <div class="row">
-
-    <div class="col-12 col-sm-12 col-md-4 col-lg-5 mb-sm-40">
-
-      <div class="footer-widget about">
-
-        <div class="footer-logo mb-10">
-
-          <a href="index"><img src="<?php echo $urlLink; ?>/assets/img/agrorite.webp" alt="agrorite footer logo"></a>
-
+  <div class="footer-widget-area bg-light4" style="padding-top: 100px; padding-bottom: 30px; padding-left: 22px; padding-right: 22px;">
+    <div class="container">
+      <div class="row footContent">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-sm-40">
+          <div class="footer-widget about">
+            <h5 class="widget-title mb-10 text-white">Address</h5>
+            <hr class="line" style="border-color:#fff">
+            <div class="widget-content mt-20 clearfix footer-address">
+              <p style="font-size:13px, margin-bottom:0.5rem" class="text-ash"><b style="color:#0CD60B">Lagos:</b> 1B Olabanji Olajide Crescent, Off Mobolaji Johnson Estate, Lekki Phase 1, Lekki, Lagos</p>
+              <p style="font-size:13px, margin-bottom:0.5rem" class="text-ash"><b style="color:#0CD60B">Abuja:</b> Hanan Plaza, Aminu Kano Crescent, Off Old Union Bank, Wuse II, Abuja</p>
+              <p style="font-size:13px, margin-bottom:0.5rem" class="text-ash"><b style="color:#0CD60B">Guinea Bissau:</b> 3A, Avenida Rua Quele via Hotel Libya Bissau, Guinea-Bissau</p>
+              <p style="font-size:13px, margin-bottom:0.5rem" class="text-ash"><b style="color:#0CD60B">Ghana:</b> 17, Garden Road, East Legon, Accra.</p>
+            </div>
+          </div>
         </div>
 
-        <div class="widget-content">
+        <div class="row col-12 col-sm-12 col-md-12 col-lg-7 mb-sm-40">
+          <div class="col-6 col-sm-16 col-md-6 col-lg-2 mb-sm-40">
+            <div class="footer-widget">
+              <h5 class="widget-title mb-10 text-white">Company</h5>
+              <hr class="line" style="border-color:#fff">
+              <div class="widget-content mt-20">
+                <ul class="list-unstyled picker">
+                  <li><a class="text-ash" href="<?php echo $urlLink; ?>/about-us">About</a></li>
+                  <li><a class="text-ash" href="<?php echo $urlLink; ?>/impact-agenda">Impact</a></li>
+                  <li><a class="text-ash" href="<?php echo $urlLink; ?>/operations">Operations</a></li>
+                  <li><a class="text-ash" href="<?php echo $urlLink; ?>/career">Career</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-          <p class="text-white">Agrorite is improving the livelihood of smallholder farmers, with access to Finance, Smart farming practices and Premium markets.</p>
+          <div class="col-6 col-sm-16 col-md-6 col-lg-3 mb-sm-40">
+            <div class="footer-widget">
+              <h5 class="widget-title mb-10 text-white">Materials</h5>
+              <hr class="line" style="border-color:#fff">
+              <div class="widget-content mt-20">
+                <ul class="list-unstyled picker">
+                  <li><a class="text-ash" href="<?php echo $urlLink; ?>/photos">Gallery</a></li>
+                  <li><a class="text-ash" href="<?php echo $urlLink; ?>/media">Press and Media</a></li>
+                  <li><a class="text-ash" href="<?php echo $urlLink; ?>/resource">Resources</a></li>
+                  <li><a class="text-ash" target="_blank" href="https://blog.agrorite.com">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-          <p style="font-size:12px" class="text-white"><b style="color:#0CD60B">Lagos:</b> 1B Olabanji Olajide Crescent, Off Mobolaji Johnson Estate, Lekki Phase 1, Lekki, Lagos</p>
+          <div class="col-6 col-sm-16 col-md-6 col-lg-3 mb-sm-40">
+            <div class="footer-widget">
+              <h5 class="widget-title mb-10 text-white" >Socials</h5>
+              <hr class="line" style="border-color:#fff">
+              <div class="widget-content mt-20">
+                <div>
+                  <a href="//instagram.com/agrorite_" target="_blank" class="f-icon-new f-icon fa fa-instagram"></a><span class="f-icon  f-icon-new"><a href="//instagram.com/agrorite_" class="text-ash">Instagram</a></span>
+                </div>
+                <div>
+                  <a href="//www.linkedin.com/company/agrorite" target="_blank" class="f-icon fa fa-linkedin f-icon-new"></a><span class="f-icon  f-icon-new"><a href="//www.linkedin.com/company/agrorite" class="text-ash">Linkedin</a></span>
+                </div>
+                <div>
+                  <a href="//www.youtube.com/channel/UCZKHEp79-zTLmbPKvBJxxCQ" target="_blank" class="f-icon-new f-icon fa fa-youtube"></a><span class="f-icon  f-icon-new"><a href="//www.youtube.com/channel/UCZKHEp79-zTLmbPKvBJxxCQ" class="text-ash">Youtube</a></span>
+                </div>
+                <div>
+                  <a href="//twitter.com/agrorite" target="_blank" class="f-icon fa fa-twitter f-icon-new"></a><span class="f-icon  f-icon-new"><a href="//twitter.com/agrorite" class="text-ash">Twitter</a>
+                  </span>
+                </div>
+                <div>
+                  <a href="//www.facebook.com/agrorite/" target="_blank" class="f-icon-new f-icon fa fa-facebook f-icon-new"></a>
+                  <span class="f-icon  f-icon-new"><a href="//www.facebook.com/agrorite/" class="text-ash">Facebook</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <p style="font-size:12px" class="text-white"><b style="color:#0CD60B">Abuja:</b> Hanan Plaza, Aminu Kano Crescent, Off Old Union Bank, Wuse II, Abuja</p>
-
-      <p style="font-size:12px" class="text-white"><b style="color:#0CD60B">Guinea Bissau:</b> 3A, Avenida Rua Quele via Hotel Libya Bissau, Guinea-Bissau</p>
-
-
-
-
-
-        </div>
-        <div class="widget-content mt-20 clearfix">
-          <ul class="f-icon-ul">
-            <li><a href="//www.facebook.com/agrorite/" target="_blank" class="f-icon fa fa-facebook"></a></li>
-            <li><a href="//twitter.com/agrorite" target="_blank" class="f-icon fa fa-twitter"></a></li>
-            <li><a href="//www.linkedin.com/company/agrorite" target="_blank" class="f-icon fa fa-linkedin"></a></li>
-            <li><a href="//instagram.com/agrorite_" target="_blank" class="f-icon fa fa-instagram"></a></li>
-            <li><a href="//www.youtube.com/channel/UCZKHEp79-zTLmbPKvBJxxCQ" target="_blank" class="f-icon fa fa-youtube"></a></li>
-            <li><a href="//wa.me/2348035429041" target="_blank" class="f-icon fa fa-whatsapp"></a></li>
-          </ul>
+          <div class="col-6 col-sm-16 col-md-6 col-lg-4 mb-sm-40">
+            <div class="footer-widget">
+              <h5 class="widget-title mb-10 text-white" >Contact Us</h5>
+              <hr class="line" style="border-color:#fff">
+              <div class="widget-content mt-20">
+                <ul class="list-unstyled newContact picker">
+                  <!-- <p class="text-ash">1B Olabanji Olajide Crescent, Off Mobolaji Johnson Estate, Lekki Phase 1, Lekki, Lagos</p> -->
+                  <li class="text-ash" style="margin-top: 4px"><a class="text-ash" href="mailto:hello@agrorite.com" style="text-transform:lowercase">hello@agrorite.com</a></li>
+                  <li><a class="text-ash" href="tel:+234 803 542 9041">+234 803 542 9041</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
+      <hr class="liners container" style="border-color:#cecece">
     </div>
 
-    <!-- Widget End -->
-
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-sm-40">
-
-      <div class="footer-widget">
-
-        <h4 class="widget-title mb-10 text-white">Company</h4>
-
-        <hr class="line" style="border-color:#fff">
-
-        <div class="widget-content mt-20 clearfix">
-
-          <ul class="list-unstyled float-left">
-          <!-- <li><a class="text-white" href="<?php echo $urlLink; ?>/anniversary2">#AgroriteAt2</a></li> -->
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/about-us">About</a></li>
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/team">The Team</a></li>
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/awards">Awards</a></li>
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/photos">Photos</a></li>
-
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/media">Media</a></li>
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/videos">Videos</a></li>
-
-
-
-
-          </ul>
-
-          <ul class="list-unstyled float-left">
-          <li><a class="text-white" href="<?php echo $urlLink; ?>/contact">Contact Us</a></li>
-          
-          <li><a class="text-white" href="<?php echo $urlLink; ?>/resource">Resources</a></li>
-
-          <li><a class="text-white" href="<?php echo $urlLink; ?>/career">Career</a></li>
-
-          <li><a class="text-white" href="<?php echo $urlLink; ?>/faq">FAQs</a></li>
-
-          
-          <li><a class="text-white" target="_blank" href="https://blog.agrorite.com">Blog</a></li>
-
-            <!-- <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.agrorite.android"><img style="width:100px" src="<?php echo $urlLink; ?>/assets/img/client/logo/download2.png"></a></li>
-
-            <li><a class="" href="#"><img style="width:100px" src="<?php echo $urlLink; ?>/assets/img/client/logo/download.png"></a></li>
-             -->
-
-          </ul>
-
+    <div class="footer-copyright bg-light4 " style="margin-top:18px">
+      <div class="container">
+        <!-- <hr class="line" style="border-color:#fff"> -->
+        <div class="row copySpace">
+          <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-sm-40 copyCopy">
+            <p class="mb-0 text-ash">Agrorite's Copyright &copy; 2023  </p>
+          </div>
+          <div class="copyFaq">
+            <ul class="list-unstyled copyList picker">
+              <li><a class="text-ash picker" href="<?php echo $urlLink; ?>/terms">Terms of Privacy</a></li>
+              <!-- <li><a class="text-ash" href="<?php echo $urlLink; ?>/impact-agenda">Impact</a></li> -->
+              <li><a class="text-ash" href="<?php echo $urlLink; ?>/privacy">Privacy Policy</a></li>
+              <li><a class="text-ash" href="<?php echo $urlLink; ?>/faq">FAQ</a></li>
+            </ul>
+          </div>
         </div>
-
-      </div>
-
-    </div>
-
-    <!-- Widget End -->
-
-    <div class="col-6 col-sm-3 col-md-2 col-lg-2">
-
-      <div class="footer-widget">
-
-        <h4 class="widget-title mb-10 text-white">Legal</h4>
-
-        <hr class="line" style="border-color:#fff">
-
-        <div class="widget-content mt-20">
-
-          <ul class="list-unstyled">
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/privacy">Privacy Policy</a></li>
-
-            <!-- <li><a class="text-white" href="<?php echo $urlLink; ?>/buyForm">Buy From Us</a></li> -->
-
-            <!-- <li><a class="text-white" href="<?php echo $urlLink; ?>/sellForm">Sell to Us</a></li> -->
-
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/terms">Terms & Conditions</a></li>
-
-            <li><a class="text-white" href="<?php echo $urlLink; ?>/farm-visit">Terms of farm visit</a></li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Widget End -->
-
-    <div class="col-6 col-sm-3 col-md-2 col-lg-2">
-
-      <div class="footer-widget">
-
-        <h4 class="widget-title mb-10 text-white" >Contact Us</h4>
-
-        <hr class="line" style="border-color:#fff">
-
-        <div class="widget-content mt-20">
-
-          <ul class="list-unstyled">
-
-            <li class="text-white"><a class="text-white" href="mailto:hello@agrorite.com" style="text-transform:lowercase">hello@agrorite.com</a></li>
-
-            <li><a class="text-white" href="tel:+234 803 542 9041">+234 803 542 9041</a></li>
-
-            <!-- <li title="1B Olabanji Olajide Crescent, Off Mobolaji Johnson Estate" class="text-white">Lekki Phase 1, Lagos</li> -->
-
-          </ul>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Widget End -->
-
-  </div>
-  
-</div>
-
-
-<div class="footer-copyright bg-light3 ptb-15" style="margin-top:36px">
-
-<div class="container text-center">
-
-  <p class="mb-0 text-white">Copyrights &copy; 2021 All Rights Reserved by Agrorite Limited</p>
 
 </div>
 
-</div>
+    </div>
 
 </footer>
 
@@ -195,10 +126,9 @@
 <script src="<?php echo $urlLink; ?>/assets/js/timeline.js"></script>
 
 <script src="<?php echo $urlLink; ?>/assets/js/bootstrap.min.js"></script>
-<script src='//cdn.jsdelivr.net/npm/marquee3000@1.0.8/marquee3k-noUMD.min.js'></script>
 <script src="<?php echo $urlLink; ?>/assets/js/popper.min.js"></script>
-
 <script src="<?php echo $urlLink; ?>/assets/js/plugins.js"></script>
+<script src="let-it-snow.min.js"></script>
 
 <script src="<?php echo $urlLink; ?>/assets/js/owl.carousel.min.js"></script>
 <script src="<?php echo $urlLink; ?>/assets/js/jquery-appear.js"></script>
@@ -255,7 +185,7 @@ position: "left"
 });
 </script>
 <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
-  <script>
+  <!-- <script>
       $(document).ready(function() {
         $('#demo2').owlCarousel({
           loop: true,
@@ -280,4 +210,7 @@ position: "left"
         })
       });
       Marquee3k.init();
-  </script>
+
+      createMarquee();
+
+  </script> -->

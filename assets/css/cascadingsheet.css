@@ -1,0 +1,266 @@
+.image-container {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50% 50% 11% 70%;
+}
+
+.image-container .man-image {
+    transition: transform 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container:hover .man-image {
+    transform: scale(1.2); 
+}
+.BannerImgDiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.border-image {
+    position: relative;
+    top: 78px;
+    left: 85%;
+    transform: translateX(-50%); 
+    z-index: 99 !important;
+}
+
+.roller {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 5.25rem;
+    height: 5.25rem;
+    background-color: linear-gradient(270deg, #07D609 -8.1%, #004A01 103.97%); 
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#rolltext {
+    position: absolute;
+    top: 100%;
+    animation: slide 10s linear infinite;
+}
+
+#rolltext > div {
+    display: block;
+    height: 5.25rem;
+    font-size: inherit;
+}
+
+@keyframes slide {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -400%; 
+    }
+}
+.cascade h1{
+    color: #004A01
+}
+.cascadeCount{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+    margin-top: 16px;
+}
+.cascade p{
+    font-size: 23px;
+    line-height:1.4;
+    margin-bottom: 4rem;
+    font-weight:400;
+    
+}
+.tractionIconCard {
+  display: flex;
+  align-items: flex-start;
+}
+.tractionimg{
+  margin-righT: 10px;
+  width:3rem;
+  height: 3rem;
+}
+.tractionimg img{
+    max-width: 88%;
+}
+.tractionIconValue h3{
+  margin-bottom: 2px;
+  font-size: 1.8rem;
+}
+.tractionIconValue p{
+    line-height: 1.8rem;
+}
+.tractionRow{
+    padding: 10px 0;
+    margin-top: 32px;
+    margin: auto;
+    width: 90%;
+}
+.landLink{
+    padding: 10px 19px;
+    background-color: green;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #fff !important;
+}
+.border-card{
+    position: absolute;
+    top: 74%;
+    left: 31%;
+    transform: translateX(-50%);
+    z-index: 99 !important;
+    width: 60%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background: rgba(173, 167, 14, 0.3);
+    box-shadow: 0px 4px 30px 0px rgba(51, 51, 51, 0.20);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255 );
+    }
+.border-card p{
+    line-height: 1.8rem ;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
+    
+
+}
+.diamond{
+    background-color: #fff;
+    height: 4.5rem;
+    width: 4.5rem;
+    padding: 6px 5px;
+    border-radius: 50%;
+}
+  
+  @keyframes slideText {
+    
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+
+.rotator-fade span {
+    animation-duration: 2s; 
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    background: linear-gradient(to right, #004a01, #07d609); 
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
+    line-height: 1.2;
+    
+}
+.tractionSection{
+    background-color: #0AD50A29;
+    width: 100%;
+}
+.visionIcon{
+    margin-bottom: 13px;
+}
+.vision-icon {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    text-align: center;
+    /* background-color: rgba(2,173,136,.2); */
+}
+.vision-icon1 {
+    background: rgba(52, 141, 52, 0.1);
+}
+.vision-icon img{
+    max-width: 73%;
+}
+
+.hero-text:hover h3, .hero-text:hover p {
+    color: white; 
+}
+.hero-text:hover .vision-icon1 {
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.hero-text:hover .vision-icon2 {
+    background-color:#F6EFCC;
+}
+.hero-text:hover .vision-icon3 {
+    background-color:rgba(237, 243, 237, 1);
+}
+
+.vision-icon2 {
+    background: rgba(210, 173, 1, 0.2);
+}
+.vision-icon3 {
+    background: rgba(10, 213, 10, 0.2);
+}
+.hero-text{
+    background-color: #f1f1f1
+}
+.visionIcon1:hover{
+background-color: #004A01;
+color: #fff;
+
+}
+
+.visionIcon2:hover{
+background-color: #D2AD01;
+color: #fff;
+}
+
+.visionIcon3:hover{
+background-color: #0AD50A;
+color: #fff;
+}
+.imageBuyer{
+    background-image: url(../img/banner/buyerImage.png);
+}
+.imageBuyer {
+    height: 300px;
+    background-image: url('../img/banner/buyerImage.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    border-radius: 24px 0px 0px  24px;
+}
+.buyerCard{
+    display: flex;
+    background-color: #348D34;
+    border-radius: 24px;
+    color: #fff;
+    justify-content: space-between;
+}
+.buyerContent h1, .buyerContent p{
+    color: #fff;
+}
+.buyerContent{
+    display: grid;
+    align-content: center;
+    padding: 33px;
+}
+.buyerContent a{
+    width: 40%;
+    background-color: #07D609;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+    padding: 5px 0;
+    margin-top: 10px;
+}

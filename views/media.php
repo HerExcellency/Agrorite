@@ -1,464 +1,185 @@
-<?php
+<?php $title = "Our Awards || Agrorite Limited"; require_once "header.php"; ?>
+    <div class="header-space"></div>
+    <!-- Header End -->
+    <!-- Breadcrumb Area Start -->
 
-  $title = "Media  Mention || Agrorite Limited";
-
-  require_once "header.php";
-
-?>
-
-  <div class="header-space"></div>
-
-  <!-- Header End -->
-
-  <!-- Breadcrumb Area Start -->
-
-  <nav class="breadcrumb-area bg-dark bg-6 ptb-20 n40">
-
-    <div class="container d-md-flex">
-
-      <h2 class="text-white mb-0">Media Mention</h2>
-
-      <ol class="breadcrumb p-0 m-0 bg-dark ml-auto">
-
-        <li class="breadcrumb-item"><a class="text-white" href="index">Home</a> <span class="text-white">/</span></li>
-
-        <li aria-current="page" class="breadcrumb-item active text-white">Media Mention</li>
-
-      </ol>
-
-    </div>
-
-  </nav>
-
-  <!-- Breadcrumb Area End -->
-
-  <div class="container-fluid">
-
-    <div class="row">
-
-        <div class="col-12">
-
-            <ul class="my-ul text-center">
-
-                <li class="nav-item"><a href="awards" class="nav-link">Awards</a></li>
-
-                <li class="nav-item"><a href="media" class="nav-link active">Media</a></li>
-
-                <li class="nav-item"><a href="photos" class="nav-link">Photos</a></li>
-
-                <li class="nav-item"><a href="videos" class="nav-link">Video</a></li>
-
-            </ul>
-
+    <nav class="breadcrumb-area bg-dark bg-6 ptb-20 n40">
+        <div class="container d-md-flex">
+            <h2 class="text-white mb-0">Our Awards</h2>
+            <ol class="breadcrumb p-0 m-0 bg-dark ml-auto">
+                <li class="breadcrumb-item"><a class="text-white" href="index">Home</a> <span class="text-white">/</span></li>
+                <li aria-current="page" class="breadcrumb-item active text-white">Our Awards</li>
+            </ol>
         </div>
+    </nav>
 
-    </div>
+<!-- Breadcrumb Area End -->
 
-  <!-- Media Section Start -->
-  
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <ul class="my-ul text-center">
+                    <li class="nav-item"><a href="awards" class="nav-link ">Awards</a></li>
+                    <li class="nav-item"><a href="media" class="nav-link active">Media</a></li>
+                    <li class="nav-item"><a href="photos" class="nav-link">Photos</a></li>
+                    <li class="nav-item"><a href="videos" class="nav-link">Video</a></li>
+                </ul>
+            </div>
+        </div>
+    <section class="section-ptb1 bg-white">
 
-  <section class="section-ptb1 bg-white">
+        <div class="container">
+            <div class="row text-center">
+            <?php
+            $mediaLister = array(
 
-    <div class="container">
-  
+                array(
+                    "images" => "vanguard.png",
+                    "house" => "Vanguard",
+                    "posting" => "Agrorite: Creating a Value Based Farming Network",
+                    "linker" => "//www.vanguardngr.com/2022/01/agrorite-creating-a-value-based-farming-network/"
+                ),
 
-      <div class="row text-center">
-      <div class="col-12 col-md-6 col-lg-3 mb-30">
+                array(
+                    "images" => "Techpoint.webp",
+                    "house" => "Techpoint",
+                    "posting" => "How Agrorite is creating resilience against food insecurity",
+                    "linker" => "//techpoint.africa/2021/07/29/how-agrorite-is-creating-resilience-against-food-insecurity/"
+                ),
 
-<div class="card-M featured-item shadow">
+                // array(
+                //     "images" => "vanguard.png",
+                //     "house" => "Vanguard",
+                //     "posting" => "How Agrorite is creating resilience against food insecurity",
+                //     "linker" => "//www.vanguardngr.com/2021/07/how-agrorite-creating-resilience-against-food-insecurity/"
+                // ),
 
-  <div class="card-body cardb ptb-45">
+                array(
+                    "images" => "vanguard.png",
+                    "house" => "Vanguard",
+                    "posting" => "Agrorite: Uplifting Farmers Amidst Covid-19",
+                    "linker" => "//www.vanguardngr.com/2021/01/agrorite-uplifting-farmers-amidst-covid-19/"
+                ),
 
-    <div class="icon circle-icon1 mx-auto">
+                array(
+                    "images" => "Startupill-logo.webp",
+                    "house" => "Startupill, London",
+                    "posting" => "101 Quality Farming Startups To Look Out For In 2021",
+                    "linker" => "//startupill.com/101-quality-farming-startups-to-look-out-for-in-2021/"
+                ),
 
-    <img src="<?php echo $urlLink; ?>/assets/img/media/vanguard.png" alt="Member Image">
+                array(
+                    "images" => "businessday.webp",
+                    "house" => "Business Day",
+                    "posting" => "How Agrorite uplifts smallholder farmers amid COVID-19",
+                    "linker" => "//businessday.ng/agriculture/article/how-agrorite-uplifts-smallholder-farmers-amid-covid-19"
+                ),
 
-    </div>
+                array(
+                    "images" => "nairametrics-logo.webp",
+                    "house" => "Nairametrics",
+                    "posting" => "Agrorite leading the fight against food insecurity using Agtech",
+                    "linker" => "//nairametrics.com/2020/09/14/agrorite-leading-the-fight-against-food-insecurity-using-agtech/"
+                ),
 
-    <h5>Vanguard</h5>
+                array(
+                    "images" => "vanguard.png",
+                    "house" => "Vanguard",
+                    "posting" => "COVID-19: Agrorite, Netherlands, NABDA partner Agrobusiness times for food security",
+                    "linker" => "//www.vanguardngr.com/2020/09/covid-19-netherlands-nabda-agrorite-partner-agrobusiness-times-for-food-security-conference/amp/"
+                ),
 
-    <p class="mb-10">Agrorite: Creating a Value Based Farming Network</p>
+                array(
+                    "images" => "Spacein.webp",
+                    "house" => "Space In Africa",
+                    "posting" => "Agrorite To Deploy Satellite-based Farm Management Tool For Nigerian Farmers",
+                    "linker" => "//africanews.space/africa4future2020-agrorite-to-deploy-satellite-based-farm-management-tool-for-nigerian-farmers"
+                ),
 
-    <a class="item-link link-btn" href="//www.vanguardngr.com/2022/01/agrorite-creating-a-value-based-farming-network/
-" target="_blank">Read More</a>
+                array(
+                    "images" => "airbus.webp",
+                    "house" => "Airbus Aerospace",
+                    "posting" => "Africa4Future welcomes 2020 cohort",
+                    "linker" => "//www.airbus.com/newsroom/stories/Africa-4-Future-2020.html"
+                ),
 
-  </div>
+                array(
+                    "images" => "Spacein.webp",
+                    "house" => "Space In Africa",
+                    "posting" => "Agrorite To Deploy Satellite-based Farm Management Tool For Nigerian Farmers",
+                    "linker" => "//africanews.space/africa4future2020-agrorite-to-deploy-satellite-based-farm-management-tool-for-nigerian-farmers"
+                ),
 
-</div>
+                array(
+                    "images" => "businessday.webp",
+                    "house" => "Business Day",
+                    "posting" => "Achieving food security in Africa with the Agrorite approach",
+                    "linker" => "//businessday.ng/agriculture/article/achieving-food-security-in-africa-with-the-agrorite-approach/"
+                ),
 
-</div>
-         <!-- Single Featured End -->
-         <div class="col-12 col-md-6 col-lg-3 mb-30">
+                array(
+                    "images" => "vanguard.png",
+                    "house" => "Vanguard",
+                    "posting" => "Agrorite determines to achieve food security in Africa",
+                    "linker" => "//www.vanguardngr.com/2019/10/agrorite-determines-to-achieve-food-security-in-africa-toyosi-ayodele/"
+                ),
 
-<div class="card-M featured-item shadow">
+                array(
+                    "images" => "punchng.webp",
+                    "house" => "Punchng",
+                    "posting" => "Agrorite: Digital platform spurring agricultural prosperity",
+                    "linker" => "//punchng.com/agrorite-digital-platform-spurring-agricultural-prosperity/"
+                ),
 
-  <div class="card-body cardb ptb-45">
+                array(
+                    "images" => "dailypost.webp",
+                    "house" => "Dailypostg",
+                    "posting" => "Agrorite presents an opportunity to partner and earn in Agriculture",
+                    "linker" => "//dailypost.ng/2019/07/13/agrorite-presents-opportunity-partner-earn-agriculture/"
+                ),
 
-    <div class="icon circle-icon1 mx-auto">
+                array(
+                    "images" => "farmcon.webp",
+                    "house" => "African farming",
+                    "posting" => "Agrorite unveils digital platform for smallholder farmers",
+                    "linker" => "//www.africanfarming.net/crops/agriculture/agrorite-com-unveils-digital-platform-for-smallholder-farmers"
+                ),
 
-    <img src="<?php echo $urlLink; ?>/assets/img/media/Techpoint.webp" alt="Member Image">
+            );
 
-    </div>
+            foreach ($mediaLister as $mPost) {
 
-    <h5>Techpoint</h5>
+            ?>
+            <div class="col-12 col-md-6 col-lg-3 mb-30"> 
 
-    <p class="mb-10">How Agrorite is creating resilience against food insecurity</p>
+                <div class="card-M featured-item shadow">
 
-    <a class="item-link link-btn" href="//techpoint.africa/2021/07/29/how-agrorite-is-creating-resilience-against-food-insecurity/
-" target="_blank">Read More</a>
+                    <div class="card-body cardb ptb-45">
 
-  </div>
+                        <div class="icon circle-icon1 mx-auto">
 
-</div>
+                            <img src="<?php echo $urlLink; ?>/assets/img/media/<?php echo $mPost["images"]; ?>" alt="Member Image">
 
-</div>
-         <!-- Single Featured End -->
-         <div class="col-12 col-md-6 col-lg-3 mb-30">
+                        </div>
 
-<div class="card-M featured-item shadow">
+                            <h5><?php echo $mPost["house"]; ?></h5>
 
-  <div class="card-body cardb ptb-45">
+                            <p class="mb-10"><?php echo $mPost["posting"]; ?></p>
 
-    <div class="icon circle-icon1 mx-auto">
+                            <!-- <a class="item-link link-btn" href="//www.vanguardngr.com/2022/01/agrorite-creating-a-value-based-farming-network/" target="_blank">Read More</a> -->
 
-    <img src="<?php echo $urlLink; ?>/assets/img/media/vanguard.png" alt="Member Image">
+                            <a class="item-link link-btn" href="<?php echo $mPost["linker"]; ?>" target="_blank">Read More</a>
 
-    </div>
-
-    <h5>Vanguard</h5>
-
-    <p class="mb-10">How Agrorite is creating resilience against food insecurity
-</p>
-
-    <a class="item-link link-btn" href="//www.vanguardngr.com/2021/07/how-agrorite-creating-resilience-against-food-insecurity/" target="_blank">Read More</a>
-
-  </div>
-
-</div>
-
-</div>
-      
-            <!-- Single Featured End -->
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-<div class="card-M featured-item shadow">
-
-  <div class="card-body cardb ptb-45">
-
-    <div class="icon circle-icon1 mx-auto">
-
-    <img src="<?php echo $urlLink; ?>/assets/img/media/vanguard.png" alt="Member Image">
-
-    </div>
-
-    <h5>Vanguard</h5>
-
-    <p class="mb-10">Agrorite: Uplifting Farmers Amidst Covid-19</p>
-
-    <a class="item-link link-btn" href="//www.vanguardngr.com/2021/01/agrorite-uplifting-farmers-amidst-covid-19/" target="_blank">Read More</a>
-
-  </div>
-
-</div>
-
-</div>
-            <!-- Single Featured End -->
-            <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-            <div class="card-M featured-item shadow">
-
-              <div class="card-body cardb ptb-45">
-
-                <div class="icon circle-icon1 mx-auto">
-
-                <img src="<?php echo $urlLink; ?>/assets/img/media/Startupill-logo.webp" alt="Member Image">
+                    </div>
 
                 </div>
 
-                <h5>Startupill, London</h5>
-
-                <p class="mb-10">101 Quality Farming Startups To Look Out For In 2021</p>
-
-                <a class="item-link link-btn" href="//startupill.com/101-quality-farming-startups-to-look-out-for-in-2021/" target="_blank">Read More</a>
-
-              </div>
-
             </div>
 
-            </div>
-            <!-- single Featured End -->
-            <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-            <div class="card-M featured-item shadow">
-
-              <div class="card-body cardb ptb-45">
-
-                <div class="icon circle-icon1 mx-auto">
-
-                <img src="<?php echo $urlLink; ?>/assets/img/media/businessday.webp" alt="Member Image">
-
-                </div>
-
-                <h5>Business Day</h5>
-
-                <p class="mb-10">How Agrorite uplifts smallholder farmers amid COVID-19</p>
-
-                <a class="item-link link-btn" href="//businessday.ng/agriculture/article/how-agrorite-uplifts-smallholder-farmers-amid-covid-19" target="_blank">Read More</a>
-
-              </div>
-
-            </div>
-
-            </div>
-        <!-- Single Featured End -->
-          <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-            <div class="card-M featured-item shadow">
-
-              <div class="card-body cardb ptb-45">
-
-                <div class="icon circle-icon1 mx-auto">
-
-                <img src="<?php echo $urlLink; ?>/assets/img/media/nairametrics-logo.webp" alt="Member Image">
-
-                </div>
-
-                <h5>Nairametrics</h5>
-
-                <p class="mb-10">Agrorite leading the fight against food insecurity using Agtech</p>
-
-                <a class="item-link link-btn" href="//nairametrics.com/2020/09/14/agrorite-leading-the-fight-against-food-insecurity-using-agtech/" target="_blank">Read More</a>
-
-              </div>
-
-            </div>
-
-            </div>
-            <!-- Single Featured End -->
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-<div class="card-M featured-item shadow">
-
-  <div class="card-body cardb ptb-45">
-
-    <div class="icon circle-icon1 mx-auto">
-    <img src="<?php echo $urlLink; ?>/assets/img/media/vanguard.png" alt="Member Image">
-
-    <!-- <img src="https://agrorite.com/assets/img/media/vanguard.png" alt="Member Image"> -->
-
+            <?php } ?>
+        </div>
     </div>
+</section>
 
-    <h5>Vanguard</h5>
-
-    <p class="mb-10">COVID-19: Agrorite, Netherlands, NABDA partner Agrobusiness times for food security</p>
-
-    <a class="item-link link-btn" href="//www.vanguardngr.com/2020/09/covid-19-netherlands-nabda-agrorite-partner-agrobusiness-times-for-food-security-conference/amp/" target="_blank">Read More</a>
-
-  </div>
-
-</div>
-
-</div>
-        
-        <!-- Single Featured End -->
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-          <div class="card-M featured-item shadow">
-
-            <div class="card-body cardb ptb-45">
-
-              <div class="icon circle-icon1 mx-auto">
-
-              <img src="<?php echo $urlLink; ?>/assets/img/media/Spacein.webp" alt="Member Image">
-
-              </div>
-
-              <h5>Space In Africa</h5>
-
-              <p class="mb-10">Agrorite To Deploy Satellite-based Farm Management Tool For Nigerian Farmers</p>
-
-              <a class="item-link link-btn" href="//africanews.space/africa4future2020-agrorite-to-deploy-satellite-based-farm-management-tool-for-nigerian-farmers" target="_blank">Read More</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Single Featured End -->
-
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-          <div class="card-M featured-item shadow">
-
-            <div class="card-body cardb ptb-45">
-
-              <div class="icon circle-icon1 mx-auto">
-
-              <img src="<?php echo $urlLink; ?>/assets/img/media/airbus.webp" alt="Member Image">
-
-              </div>
-
-              <h5>Airbus Aerospace</h5>
-
-              <p class="mb-10">Africa4Future welcomes 2020 cohort</p>
-
-              <a class="item-link link-btn" href="//www.airbus.com/newsroom/stories/Africa-4-Future-2020.html" target="_blank">Read More</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Single Featured End -->
-
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-          <div class="card-M featured-item shadow">
-
-            <div class="card-body cardb ptb-45">
-
-              <div class="icon circle-icon1 mx-auto">
-
-              <img src="<?php echo $urlLink; ?>/assets/img/media/businessday.webp" alt="Member Image">
-
-              </div>
-
-              <h5>Business Day</h5>
-
-              <p class="mb-10">Achieving food security in Africa with the Agrorite approach</p>
-
-              <a class="item-link link-btn" href="//businessday.ng/agriculture/article/achieving-food-security-in-africa-with-the-agrorite-approach/" target="_blank">Read More</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Single Featured End -->
-
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-          <div class="card-M featured-item shadow">
-
-            <div class="card-body cardb ptb-45">
-
-              <div class="icon circle-icon1 mx-auto">
-
-              <img src="<?php echo $urlLink; ?>/assets/img/media/vanguard.png" alt="Member Image">
-
-              </div>
-
-              <h5>Vanguard</h5>
-
-              <p class="mb-10">Agrorite determines to achieve food security in Africa</p>
-
-              <a class="item-link link-btn" href="//www.vanguardngr.com/2019/10/agrorite-determines-to-achieve-food-security-in-africa-toyosi-ayodele/" target="_blank">Read More</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Single Featured End -->
-
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-          <div class="card-M featured-item shadow">
-
-            <div class="card-body cardb ptb-45">
-
-              <div class="icon circle-icon1 mx-auto">
-
-              <img src="<?php echo $urlLink; ?>/assets/img/media/punchng.webp" alt="Member Image">
-
-              </div>
-
-              <h5>Punchng</h5>
-
-              <p class="mb-10">Agrorite: Digital platform spurring agricultural prosperity</p>
-
-              <a class="item-link link-btn" href="//punchng.com/agrorite-digital-platform-spurring-agricultural-prosperity/" target="_blank">Read More</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Single Featured End -->
-
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-          <div class="card-M featured-item shadow">
-
-            <div class="card-body cardb ptb-45">
-
-              <div class="icon circle-icon1 mx-auto">
-
-              <img src="<?php echo $urlLink; ?>/assets/img/media/dailypost.webp" alt="Member Image">
-
-              </div>
-
-              <h5>Dailypost</h5>
-
-              <p class="mb-10">Agrorite presents an opportunity to partner and earn in Agriculture</p>
-
-              <a class="item-link link-btn" href="//dailypost.ng/2019/07/13/agrorite-presents-opportunity-partner-earn-agriculture/" target="_blank">Read More</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Single Featured End -->
-
-        <div class="col-12 col-md-6 col-lg-3 mb-30">
-
-          <div class="card-M featured-item shadow">
-
-            <div class="card-body cardb ptb-45">
-
-              <div class="icon circle-icon1 mx-auto">
-
-              <img src="<?php echo $urlLink; ?>/assets/img/media/farmcon.webp" alt="Member Image">
-
-              </div>
-
-              <h5>African farming</h5>
-
-              <p class="mb-10">Agrorite unveils digital platform for smallholder farmers</p>
-
-              <a class="item-link link-btn" href="//www.africanfarming.net/crops/agriculture/agrorite-com-unveils-digital-platform-for-smallholder-farmers" target="_blank">Read More</a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        
-      </div>
-
-      <!-- First Row End -->
-
-    </div>
-
-  </section>
-
-  <!-- Media Section End -->
-
-    
-
-  </div>
-
-
-
-  
-
-  <?php require_once "footer.php";?>
+<?php require_once "footer.php";?>
 

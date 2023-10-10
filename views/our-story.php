@@ -2,6 +2,8 @@
   $title = "Our Story || Agrorite Limited";
   require_once "header.php";
 ?>
+  <link rel="stylesheet" href="<?php echo $urlLink; ?>/assets/css/timeline.css">f 
+
   <div class="header-space"></div>
   <!-- Header End -->
   <!-- Breadcrumb Area Start -->

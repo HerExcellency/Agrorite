@@ -3,8 +3,7 @@ $title = "Contact Us || Agrorite Limited";
 require_once "header.php";
 ?>
   <div class="header-space"></div>
-  <!-- Header End -->
-  <!-- Breadcrumb Area Start -->
+ 
   <nav class="breadcrumb-area bg-dark bg-6 ptb-20 n40">
     <div class="container d-md-flex">
       <h2 class="text-white mb-0">Contact Us</h2>
@@ -14,8 +13,7 @@ require_once "header.php";
       </ol>
     </div>
   </nav>
-  <!-- Breadcrumb Area End -->
-  <!-- Contact Area Start -->
+
   <section class="contact-area section-ptb white-bg">
     <div class="container">
       <div class="row mb-70 d-flex align-items-center">
@@ -26,31 +24,21 @@ require_once "header.php";
           </div>
           </div>
         </div>
-        <!-- <div class="col-12 col-md-6 col-lg-4"> -->
-          <!-- <div class="contact-info" style="padding-left:20px; margin-top:-50px">
-            <ul class="list-unstyled">
-              <li><span>Phone:</span> <a href="tel:+234-803-542-9041">+234-803-542-9041</a></li>
-              <li><span>Email:</span> <a class="tolower" href="mailto:hello@agrorite.com">hello@agrorite.com</a></li>
-              <li><span>Open:</span> Mon-Fri 8:30am - 4:30pm</li>
-            </ul>
-            <hr class="line max-w mb-20">
-            <p>1B Olabanji Olajide Crescent, Off Mobolaji Johnson Estate,<br class="d-none d-md-block"> Lekki Phase 1, Lagos</p>
-          </div> -->
-        <!-- </div> -->
+        
         <!-- Contact Info End -->
         <div class="col-12 col-md-6 col-lg-4">
           <div class="contact-form">
-            <h2>Leave a Message</h2>
+            <h3>Leave a Message</h23>
             <div id="error_conmessage" style="width:100%; height:100%; display:none; color:red; text-align: center; margin:20px"></div>
             <div id="success_conmessage" style="width:100%; height:100%; display:none; color:green; text-align: center; margin:20px"></div>
             
             <form class="form-group" id="contact-form">
               <div class="row">
                 <div class="col-12 col-md-6">
-                  <input class="form-control" type="text" name="name" id="userName" placeholder="Your Name">
+                  <input class="form-control" type="text" name="name" id="userName" placeholder="Name">
                 </div>
                 <div class="col-12 col-md-6">
-                  <input class="form-control" type="email" name="email" id="userEmail" placeholder="Your Email">
+                  <input class="form-control" type="email" name="email" id="userEmail" placeholder="Email">
                 </div>
               </div>
               <div class="row">
@@ -58,10 +46,10 @@ require_once "header.php";
                   <input class="form-control" type="text" name="subject" id="contact_subject" placeholder="Subject">
                 </div>
                 <div class="col-12 col-md-6">
-                  <input class="form-control" type="text" name="name" id="userMobile" placeholder="Mobile Number">
+                  <input class="form-control" type="text" name="name" id="userMobile" placeholder="Mobile">
                 </div>
               </div>
-              <textarea class="form-control" name="message" id="userMessage" rows="3" placeholder="Your Message"></textarea>
+              <textarea class="form-control" name="message" id="userMessage" rows="3" placeholder=" Message"></textarea>
               <button class="btn btn-primary mt-5" type="submit" id="cSend" data-complete-text="Well done!">Send Message</button>
             </form>
           </div>

@@ -252,8 +252,13 @@ counters.forEach( counter => {
    animate();
 });
 
-
-
+// christmas-snow
+  $.letItSnow('SELECTOR', {
+    stickyFlakes:'lis-flake--js',
+    makeFlakes:true,
+    sticky:true
+    });
+  
    
    
    // youtube-popup

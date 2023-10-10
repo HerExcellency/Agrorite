@@ -2,15 +2,6 @@
   $title = 'About Us || Agrorite Limited';
   require_once 'header.php';
 ?>
-<!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-
-<style>
-.owl-carousel .item-video {
-  height: 300px;
-  width:100%;
-}
-</style> -->
 
   <div class="header-space"></div>
   <!-- About Us -->

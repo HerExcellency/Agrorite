@@ -31,10 +31,11 @@ require_once "header.php";
                 </div>
                 <div id="collapseTen" class="panel-collapse collapse">
                     <div class="panel-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, doloremque asperiores, pariatur vitae fugit vel quasi quos nobis architecto illo voluptatem esse dolor sapiente. Deserunt dolorum repudiandae earum ex laborum!. 
+                    Agrorite was established with a desire to effectively utilize technology in the fight against food insecurity. It has the SDG 1, SDG 2, SDG 10 and SDG 12 as its primary focus and hopes to foster no poverty, zero hunger, reduced inequalities and responsible consumption and production across its network of smallholder farmers.
                     </div>
                 </div>
             </div>
+            
             
             <div class="panel panel-default">
                 <div class="panel-heading">

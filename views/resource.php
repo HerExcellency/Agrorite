@@ -9,8 +9,8 @@ require_once "header.php";
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-12 col-md-6 mb-sm-30 pright">
-            <div class="hero-text">
-              <h2 class="mb-25">The Agrorite Logo</h2>
+            <div class="hero-text subHead">
+              <h1 class="mb-25">The Agrorite Logo</h1>
               <p class="mb-10 mw-5">Our logo was crafted on the premise of farming and our brand personality.</p>
               <p class="mb-10 mw-5">The logo is a mark of reassurance that our first aim is to make farming more profitable for the small-holder farmer while upholding our core values. </p>
               <p class="mb-10 mw-5">The logo idea was inspired by farm ridges and the brand initial, giving the piece a modern and bold feel. </p>
@@ -37,8 +37,8 @@ require_once "header.php";
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-6 ml-auto pleft">
-            <div class="hero-text">
-              <h2 class="mb-25">Brand Colors</h2>
+            <div class="hero-text subHead">
+              <h1 class="mb-25">Brand Colors</h1>
               <p class="mb-10 mw-5">Our Brand colours were chosen from elements surrounding farming.</p>
               <p class="mb-30 mw-5">Agrorite green being representation of nature,  organic and primary color for agriculture and the agrorite grey, is a representation of soil, soil fertility etc.</p>
               <!-- <a href="" class="btn btn-outline-light outline-primary venobox">Download Color Guide</a> -->
@@ -53,8 +53,8 @@ require_once "header.php";
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-12 col-md-6 mb-sm-30 pright">
-            <div class="hero-text">
-              <h2 class="mb-25">Icon Pattern</h2>
+            <div class="hero-text subHead">
+              <h1 class="mb-25">Icon Pattern</h1>
               <p class="mb-10 mw-5">Our Icon pattern was designed for aesthetics and bold appeal accross our brad materials, prints, merch, online content etc.</p>
               <p class="mb-10 mw-5">It's depicts our culture and how we are willing to share it with you </p>
             </div>
@@ -103,8 +103,8 @@ require_once "header.php";
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-6 ml-auto pleft">
-            <div class="hero-text">
-              <h2 class="mb-25">Social Media</h2>
+            <div class="hero-text subHead">
+              <h1 class="mb-25">Social Media</h1>
               <p class="mb-30 mw-5">Follow us on our social media handles to get access to our latest news and updates, farm openings etc.</p>
             </div>
           </div>
@@ -117,8 +117,8 @@ require_once "header.php";
       <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col-12 col-md-6 mb-sm-30 pright">
-            <div class="hero-text">
-              <h2 class="mb-25">Media Mentions</h2>
+            <div class="hero-text subHead">
+              <h1 class="mb-25">Media Mentions</h1>
               <p class="mb-10 mw-5">A number of media houses have written quality articles about us, what we do and how we do it. Here are some of the articles</p>
               <a href="awards" class="btn btn-primary venobox">View Awards</a>
             </div>
@@ -186,8 +186,8 @@ require_once "header.php";
             </div>
           </div>
           <div class="col-12 col-md-6 mb-sm-30 pleft">
-            <div class="hero-text">
-              <h2 class="mb-25">COO Interview</h2>
+            <div class="hero-text subHead">
+              <h1 class="mb-25">COO Interview</h1>
               <p class="mb-10 mw-5">Appreciation message from Genevieve Makata, Co-Founder and COO of Agrorite</p>
               <!-- <a href="" class="btn btn-primary venobox"></a> -->
             </div>

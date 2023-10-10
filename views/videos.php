@@ -64,6 +64,26 @@
 
         
 
+      <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-30">
+
+        <div class="card featured-item">
+
+          <div class="card-body obody">
+
+            <div class="icon mx-auto">
+
+      
+              <iframe width="100%"  src="https://www.youtube.com/embed/gbxSRloH3Z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+            <p class="mb-20 text-left">Our student farmer explaining how much of a help Agrorite has been to her </p>
+
+          </div>
+
+        </div>
+
+      </div>
         <!-- Single Featured End -->
 
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-30">
@@ -85,7 +105,6 @@
           </div>
 
         </div>
-        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/MO-8czmu8o4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-30">
 
